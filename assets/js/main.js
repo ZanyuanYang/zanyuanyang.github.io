@@ -190,4 +190,3 @@ themeButton.addEventListener('click', () => {
 
 
 
-/*==================== Switch language====================*/
