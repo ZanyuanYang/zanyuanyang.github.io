@@ -1,2 +1,2 @@
-# [personal website](https://zanyuanyang.github.io/)
+# [personal website](https://zanyuanyang.github.io/index.html)
 ![whole[age]](./wholepage.png)
