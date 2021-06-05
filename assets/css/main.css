@@ -196,6 +196,11 @@ img{
     color: var(--first-color);
 }
 
+.nav__gif{
+    width: 20px;
+    height: 20px;
+}
+
 .nav__toggle{
     font-size: 1.1rem;
     cursor: pointer;
@@ -358,6 +363,7 @@ img{
     padding: 1rem;
     border-radius: 0.5rem;
     font-weight: var(--font-medium);
+    transition: 0.5s;
 }
 
 .button:hover{
