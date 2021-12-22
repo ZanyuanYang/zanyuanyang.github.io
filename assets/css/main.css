@@ -137,6 +137,7 @@ img{
 }
 
 /*==================== REUSABLE CSS CLASSES ====================*/
+
 .section{
     padding: 2rem 0 4rem;
 }
@@ -519,6 +520,9 @@ img{
 }
 .skills__js{
     width: 60%;
+}
+.skills__react{
+    width: 20%;
 }
 
 
