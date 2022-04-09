@@ -10,6 +10,7 @@
     --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
+    --nav-logo-color: hsl(var(--hue-color),0%,0%);
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
@@ -71,6 +72,7 @@
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
+    --nav-logo-color: hsl(var(--hue-color), 100%, 100%);
     --first-color-second: hsl(var(--hue-color), 30%, 8%);
     --title-color: hsl(var(--hue-color), 8%, 95%);
     --text-color: hsl(var(--hue-color), 8%, 75%);
@@ -189,7 +191,7 @@ img{
 
 .nav__logo,
 .nav__toggle{
-    color: black;
+    color: var(--nav-logo-color);
     font-weight: var(--font-medium);
 }
 
